@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+pod "SendBirdSDK"
+pod "youtube-ios-player-helper", :path => "./youtube-ios-player-helper.podspec"
+pod "AFNetworking"
+pod "hpple"

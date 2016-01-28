@@ -1,0 +1,37 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - hpple (0.2.0)
+  - SendBirdSDK (2.0.11)
+  - youtube-ios-player-helper (0.1.5)
+
+DEPENDENCIES:
+  - AFNetworking
+  - hpple
+  - SendBirdSDK
+  - youtube-ios-player-helper (from `./youtube-ios-player-helper.podspec`)
+
+EXTERNAL SOURCES:
+  youtube-ios-player-helper:
+    :path: ./youtube-ios-player-helper.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  SendBirdSDK: b7732a4424244e072cc6e2d31398128ba122e106
+  youtube-ios-player-helper: 921da8927a575debc293a94c678c658f38cde150
+
+COCOAPODS: 0.39.0
