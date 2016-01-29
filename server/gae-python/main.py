@@ -44,13 +44,13 @@ class UserSignIn(webapp2.RequestHandler):
             }))
         return
       else:
-        self.response(json.dumps({
+        self.response.write(json.dumps({
             "result": "error",
             "message": "Password is incorrect."
             }))
         return
     else:
-      self.response(json.dumps({
+      self.response.write(json.dumps({
           "result": "error",
           "message": "User not found."
           }))
