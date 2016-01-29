@@ -75,7 +75,7 @@
 		5A38F2F61C4A1ACF00EBE0EB /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
 		5A640B3C1C503F2300216E54 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		5A640B3D1C503F2300216E54 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
-		5AA6A8F61C49BDBD003B85C9 /* Chatube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA6A8F61C49BDBD003B85C9 /* BirdTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA6A8FA1C49BDBD003B85C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AA6A8FC1C49BDBD003B85C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AA6A8FD1C49BDBD003B85C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -280,7 +280,7 @@
 		5AA6A8F71C49BDBD003B85C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AA6A8F61C49BDBD003B85C9 /* Chatube.app */,
+				5AA6A8F61C49BDBD003B85C9 /* BirdTube.app */,
 				5AA6A9121C49BDBD003B85C9 /* Chatube.xctest */,
 				5AA6A91D1C49BDBD003B85C9 /* Chatube.xctest */,
 			);
@@ -359,9 +359,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AA6A8F51C49BDBD003B85C9 /* Chatube */ = {
+		5AA6A8F51C49BDBD003B85C9 /* BirdTube */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AA6A9261C49BDBD003B85C9 /* Build configuration list for PBXNativeTarget "Chatube" */;
+			buildConfigurationList = 5AA6A9261C49BDBD003B85C9 /* Build configuration list for PBXNativeTarget "BirdTube" */;
 			buildPhases = (
 				A600B1851AB7BA90864347F8 /* Check Pods Manifest.lock */,
 				5AA6A8F21C49BDBD003B85C9 /* Sources */,
@@ -374,9 +374,9 @@
 			);
 			dependencies = (
 			);
-			name = Chatube;
+			name = BirdTube;
 			productName = Chatube;
-			productReference = 5AA6A8F61C49BDBD003B85C9 /* Chatube.app */;
+			productReference = 5AA6A8F61C49BDBD003B85C9 /* BirdTube.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5AA6A9111C49BDBD003B85C9 /* ChatubeTests */ = {
@@ -450,7 +450,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AA6A8F51C49BDBD003B85C9 /* Chatube */,
+				5AA6A8F51C49BDBD003B85C9 /* BirdTube */,
 				5AA6A9111C49BDBD003B85C9 /* ChatubeTests */,
 				5AA6A91C1C49BDBD003B85C9 /* ChatubeUITests */,
 			);
@@ -580,12 +580,12 @@
 /* Begin PBXTargetDependency section */
 		5AA6A9141C49BDBD003B85C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5AA6A8F51C49BDBD003B85C9 /* Chatube */;
+			target = 5AA6A8F51C49BDBD003B85C9 /* BirdTube */;
 			targetProxy = 5AA6A9131C49BDBD003B85C9 /* PBXContainerItemProxy */;
 		};
 		5AA6A91F1C49BDBD003B85C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5AA6A8F51C49BDBD003B85C9 /* Chatube */;
+			target = 5AA6A8F51C49BDBD003B85C9 /* BirdTube */;
 			targetProxy = 5AA6A91E1C49BDBD003B85C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -700,7 +700,7 @@
 				INFOPLIST_FILE = Chatube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sendbird.sendbirdxyoutube.SendBird-X-YouTube";
-				PRODUCT_NAME = Chatube;
+				PRODUCT_NAME = BirdTube;
 			};
 			name = Debug;
 		};
@@ -712,7 +712,7 @@
 				INFOPLIST_FILE = Chatube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sendbird.sendbirdxyoutube.SendBird-X-YouTube";
-				PRODUCT_NAME = Chatube;
+				PRODUCT_NAME = BirdTube;
 			};
 			name = Release;
 		};
@@ -776,7 +776,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AA6A9261C49BDBD003B85C9 /* Build configuration list for PBXNativeTarget "Chatube" */ = {
+		5AA6A9261C49BDBD003B85C9 /* Build configuration list for PBXNativeTarget "BirdTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AA6A9271C49BDBD003B85C9 /* Debug */,
